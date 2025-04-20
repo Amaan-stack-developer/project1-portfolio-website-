@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 30px;
+    width: 25%;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 27px;
+    color: rgb(66, 240, 141);
+    transition: 1s;
+    
+}
+.logo:hover{
+    border-radius: 50%;
+    box-shadow: 2px 5px 7px rgb(66, 240, 141);
+   
+}
+.navbar{
+    padding: 15px;
+    margin-right: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+     
+    color: white;
+    text-decoration: none;
+    width: 95px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    height: 29px;
+    transition: 0.5s;
+}
+.navbar a:hover {
+    color: black;
+   background-color: rgb(66, 240, 141);
+   
+}
+#s, #h{
+    padding-left: 25px;
+}
+#c{
+    background-color: rgb(66, 240, 141);
+    color: black;
+}
+.box{
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.box h1{
+    color: rgb(66, 240, 141);
+    margin: 10px;
+}
+.box p{
+    color: rgb(11, 138, 66);
+    margin: 10px;
+}
+.box button{
+    margin: 10px;
+    background-color: rgb(66, 240, 141);
+    color: black;
+    border: none;
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    
+}
+.box button a{
+    text-decoration: none;
+    color: black;
+}
